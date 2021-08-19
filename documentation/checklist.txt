@@ -1,0 +1,54 @@
+Very rough intial notes to form basis for proper design checklist document.
+Compiled from steps used for VRGOmini PT106A & PT106B releases around 12/2019
+
+
+SCHEMATIC SYMBOLS
+
+
+FOOTPRINTS
+make sure all pads have soldermask clearance of 0.0mm (this is set board-wide in the PCB design rules)
+set centre thermal pads to solid / full contact with planes
+make sure F.Fab text does not have 'visible' ticked so they don't appear in fab drawing
+make sure Silk refdes does not have 'keep upright' ticked, so can rotate
+
+
+SCHEMATIC
+major schematic blocks and important design items have schematic text to explain
+titleblocks added & versioned correctly for release
+make sure all expected fields have full info filled out (MPN1, Description, Datasheet, SKU1 etc)
+make sure all unexpected fields are blank
+
+
+LAYOUT
+net classes & design rules correct
+titleblocks added & versioned correctly for release
+id & versioning silk
+auxiliary origin in bottom-left of PCB
+important pcb dimensions on Dwgs.User layer
+layer names on each layer
+all DRCs clear, or accepted
+silkscreen etc tidied
+
+
+DESIGN PACK
+readme updated, incl revision history
+export bom - use KiBOM from my own customised fork at https://github.com/kb-consulting/KiBoM.git using command:...
+python "C:\freelance\git\KiBoM/KiBOM_CLI.py" -v "%I" "%O.csv" -d "..\manufacturing"
+... plus custom bom.ini from C:\freelance\git\optimised_kicad-libraries\environment\bom.ini (copied into KiCAD design folder root)
+... (later could change field to "Part Description" to avoid clashing with 'Description' and needed my customised fork?).
+change BOM headers "Component" to "Item", and "Quantity per PCB" to "Qty", and left-align everything, move pcb info to sensible place, save as .xlsx with bold headers & frozen top row.
+schematic pdf
+3d render images front & back
+3d cad step model (relative to auxiliary origin, or centre if that already used)
+gerbers (relative to auxiliary origin)
+drill files (plated & non-plated,relative to auxiliary origin)
+position files (top & bottom, relative to auxiliary origin)
+layout pdf - each page is a layer, in one pdf, with layer names (colour export)
+REVIEW ALL OUTPUTS
+tag in git??
+save in project/other dir??
+ECN / record release??
+
+
++ adjustments for JLC PCB or other manufacturer data?
++ ideas from enmodus stuff
