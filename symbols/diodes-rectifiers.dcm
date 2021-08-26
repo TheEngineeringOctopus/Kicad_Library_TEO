@@ -16,6 +16,11 @@ D Common Anode RGB LED, SMD 2220 PLCC-4, 490/1100/320mcd typ @ 15mA
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\diodes-rectifiers\Broadcom ASMB-KTF0-0A306 RGB 2220 SMD LED PLCC-4.pdf
 $ENDCMP
 #
+$CMP LED_SMD-4_3110_RGB_Kingbright_KPFA-3010RGBC-11
+D Common Anode RGB LED, SMD 3010 PLCC-4, 140/300/70 mcd typ @ 20mA
+F ${KIPRJMOD}\
+$ENDCMP
+#
 $CMP LED_SMD-4_3528_Wurth_150141M173100
 D Common Anode RGB LED SMD
 K RGB LED Wurth 150141M173100 SMD
