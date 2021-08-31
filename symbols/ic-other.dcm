@@ -1,5 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Level_Converter_1v65-5v5_Single_Bit_Texas-Instruments_SN74LVC1T45MDCKREP_SC70-6
+F ${KIPRJMOD}\Kicad_Library_TEO\datasheets\ic-other\Level_Converter_1v65-5v5_Single_Bit_Texas-Instruments_SN74LVC1T45MDCKREP_SC70-6.pdf
+$ENDCMP
+#
+$CMP RDG_LED_Driver_2v7-5v5_36-channel_CC_lUMISSIL_IS32FL3237_eTQFP-48
+F ${KIPRJMOD}\Kicad_Library_TEO\datasheets\ic-other\
+$ENDCMP
+#
 $CMP RTC_I2C_MicroCrystal_RV-3028-C7
 D RTC Module with XTAL, I2C, 1ppm @ 25C, 3.2x1.5mm SMD
 K Real Time Clock with battery backup switch alarm eeprom ram memory
@@ -28,7 +36,7 @@ F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-other\ST Microelectronics 
 $ENDCMP
 #
 $CMP TEMPLATE_ic-other
-F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-other\
+F ${KIPRJMOD}\Kicad_Library_TEO\datasheets\ic-other\
 $ENDCMP
 #
 #End Doc Library

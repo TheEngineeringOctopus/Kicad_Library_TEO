@@ -22,6 +22,10 @@ D 4V-36V 1A Synchronous 400kHz Buck Converter IC HSOIC-EP-8
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-power\Texas Instruments LMR23610 4-36V 1A Synchronous Buck Converter IC.pdf
 $ENDCMP
 #
+$CMP DCDC_Buck_Converter_4V5-42V_5A_500kHz_Texas-Instruments_LM22679TJ-ADJ_TO-263
+F ${KIPRJMOD}\Kicad_Library_TEO\datasheets\ic-power\DCDC_Buck_Converter_4V5-42V_5A_500kHz_Texas-Instruments_LM22679TJ-ADJ_TO-263.pdf
+$ENDCMP
+#
 $CMP DCDC_Buck_Converter_6V-100V_0.5A_1000kHz_Texas-Instruments_LM5163_HSOIC-8
 D 6V-100V 0.5A Synchronous 1000kHz Buck Converter HSOIC-8
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-power\Texas Instruments LM5163 6V-100V 500mA Synchronous Buck Converter.pdf
@@ -68,6 +72,10 @@ $CMP LDO_Fixed_5V0_50mA_ON-Semi_NCP715_XDFN-6
 D 2V5-24V IN Fixed 50mA 5V0 LDO Linear Regulator XDFN-6
 K 1.5x1.5mm Package, 0.47uF Stable Cout, Ultra-low Iq 4.7uA
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-power\ON Semi NCP715 50mA 2V5-24V LDO Linear Regulator.pdf
+$ENDCMP
+#
+$CMP LED_Driver_Boost_700mA_42V_1MHz_Analog-Devices_SOT-23-6
+F ${KIPRJMOD}\Kicad_Library_TEO\datasheets\ic-power\LED_Driver_Boost_700mA_42V_1MHz_Analog-Devices_SOT-23-6.pdf
 $ENDCMP
 #
 $CMP Protection_Input_Controller_AnalogDevices_LTC4365I_TSOT-23-8

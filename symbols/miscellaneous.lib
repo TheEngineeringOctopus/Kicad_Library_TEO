@@ -536,7 +536,7 @@ ENDDEF
 DEF TestPoint_TH_Loop_1.27mm_Keystone_5001 TP 0 50 N N 1 F N
 F0 "TP" 0 200 50 H V C CNN
 F1 "TestPoint_TH_Loop_1.27mm_Keystone_5001" 0 -350 50 H I C CNN
-F2 "_kb_miscellaneous:TestPoint_TH_Loop_1.27mm_Keystone_5001" 5 -300 50 H I C CNN
+F2 "_teo_miscellaneous:TestPoint_TH_Loop_1.27mm_Keystone_5001" 5 -300 50 H I C CNN
 F3 "" 5 -300 50 H I C CNN
 F4 "Miniature Test Point TH 1.27mm Loop" 50 -250 50 H I C CNN "Description"
 F5 "Keystone Electronics" 50 -250 50 H I C CNN "Manufacturer1"

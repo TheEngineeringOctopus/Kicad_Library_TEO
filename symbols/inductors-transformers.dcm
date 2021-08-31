@@ -44,10 +44,22 @@ K LQH43NH Series - choose exact part
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\inductors-transformers\Murata LQH43NH Series 4532m Wire-Wound SMD Inductors.pdf
 $ENDCMP
 #
+$CMP Inductor_SMD_4532_1.0-470uH_1.08A-90mA_WireWound_UnShielded_Murata_LQH43CN
+D Inductor ??uH ??% ??Arms ??% Un-Shielded 4532m Wire-Wound
+K LQH43NH Series - choose exact part
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\inductors-transformers\Murata LQH43NH Series 4532m Wire-Wound SMD Inductors.pdf
+$ENDCMP
+#
 $CMP Inductor_SMD_5050_0.6-100uH_11A-0.75A_WireWound_SemiShielded_Bourns_SRN5040TA
 D Power Inductor ??uH ??% ??Arms ??Asat Semi-Shielded Wire-Wound 5x5mm
 K SRN5040TA Series - choose exact part
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\inductors-transformers\Bourns SRN5040TA Series SMD 5mm Power Inductors Semi-Shielded.pdf
+$ENDCMP
+#
+$CMP Inductor_SMD_5050_1.1-1000uH_14A-800mA_WireWound_Bourns_LQH43CN
+D Power Inductor ??uH ??% ??Arms ??Asat Wire-Wound 5x5mm
+K SRR1280 Series - choose exact part
+F ${KIPRJMOD}\Kicad_Library_TEO\datasheets\inductors-transformers\Inductor_SMD_5050_1.1-1000uH_14A-800mA_WireWound_Bourns_LQH43CN.pdf
 $ENDCMP
 #
 $CMP Inductor_SMD_8279_0.5-100uH_12-1A_WireWound_SemiShielded_Bourns_SRN8040

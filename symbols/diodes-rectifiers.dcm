@@ -18,13 +18,18 @@ $ENDCMP
 #
 $CMP LED_SMD-4_3110_RGB_Kingbright_KPFA-3010RGBC-11
 D Common Anode RGB LED, SMD 3010 PLCC-4, 140/300/70 mcd typ @ 20mA
-F ${KIPRJMOD}\
+F ${KIPRJMOD}\Kicad_Library_TEO\datasheets\diodes-rectifiers\LED_SMD-4_3110_RGB_Kingbright_KPFA-3010RGBC-11.pdf
 $ENDCMP
 #
 $CMP LED_SMD-4_3528_Wurth_150141M173100
 D Common Anode RGB LED SMD
 K RGB LED Wurth 150141M173100 SMD
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\diodes-rectifiers\Wurth WL-SFTW RGB SMD LED 150141M173100.pdf
+$ENDCMP
+#
+$CMP LED_SMD-4_5050_RGB__ILPL-K501-RGB1-SK105-01
+D One Wire Comm RGB LED, SMD 5050
+F ${KIPRJMOD}\Kicad_Library_TEO\datasheets\diodes-rectifiers\LED_SMD-4_5050_RGB__ILPL-K501-RGB1-SK105-01.pdf
 $ENDCMP
 #
 $CMP LED_SMD-6_2827_RGB_OSRAM_KRTB-LFLP71.32
@@ -75,6 +80,15 @@ $ENDCMP
 $CMP Schottky_Single_100V_200mA_ON-Semi_NSR02100HT1G_SOD-323
 D Schottky Diode 100V 200mA SOD-323
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\diodes-rectifiers\ON Semiconductor NSR02100HT1G Schottky Diode 100V 200mA SOD-323.pdf
+$ENDCMP
+#
+$CMP Schottky_Single_30V_40A_TO-263-2_MBRB4030T4G
+F ${KIPRJMOD}\Kicad_Library_TEO\datasheets\diodes-rectifiers\Schottky_Single_30V_40A_TO-263-2_MBRB4030T4G.pdf
+$ENDCMP
+#
+$CMP Schottky_Single_45V_500mA_Central_CMDSH05-45_SOD-323
+D Schottky Diode 45V 500mA SOD-323
+F ${KIPRJMOD}\Kicad_Library_TEO\datasheets\diodes-rectifiers\Schottky_Single_45V_500mA_Central_CMDSH05-45_SOD-323.pdf
 $ENDCMP
 #
 $CMP Schottky_Single_60V_2A_Nexperia_PMEG6020ER_SOD-323W

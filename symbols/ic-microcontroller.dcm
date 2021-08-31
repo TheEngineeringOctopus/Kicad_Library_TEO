@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP MKR_WIFI_1010
+D MKR WIFI 1010
+F https://store.arduino.cc/mkr-wifi-1010
+$ENDCMP
+#
 $CMP TEMPLATE_ic-microcontroller
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-microcontroller\
 $ENDCMP

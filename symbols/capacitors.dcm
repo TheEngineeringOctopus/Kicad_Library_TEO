@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Al-Elec_Polarised_Radial_SMD_10V_1000uF_D10.0xP10.0xH12mm_Panasonic_FP(A)-HF
+D Radial Polarised 10V 20% Al-Elec Capacitor D5.0xH11.0xP2.0mm 105C 4000hrs
+$ENDCMP
+#
+$CMP Al-Elec_Polarised_Radial_SMD_16V_100uF_D6.3xP6.6xH5.9mm_OSCON_SVCP
+D Elec_Polarised_Radial_SMD_16V_100uF_D6.3xP6.6xH5.9mm_OSCON_SVCP
+$ENDCMP
+#
+$CMP Al-Elec_Polarised_Radial_SMD_20V_33uF_D5.0xP4.4xH4.5mm_Panasonic_SVPG
+D Radial Polarised 10V 20% Al-Elec Capacitor D5.0xH11.0xP2.0mm 105C 4000hrs
+$ENDCMP
+#
 $CMP Al-Elec_Polarised_Radial_TH_10V_220uF_D5.0xP2.0xH11.0mm_Rubycon_YXJ
 D Radial Polarised 10V 20% Al-Elec Capacitor D5.0xH11.0xP2.0mm 105C 4000hrs
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\capacitors\Rubycon YXJ Series 105C 10khrs 6V3-100V Al-Elec TH Capacitors.pdf
