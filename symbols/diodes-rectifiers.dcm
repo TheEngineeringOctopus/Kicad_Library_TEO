@@ -82,6 +82,11 @@ D Schottky Diode 100V 200mA SOD-323
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\diodes-rectifiers\ON Semiconductor NSR02100HT1G Schottky Diode 100V 200mA SOD-323.pdf
 $ENDCMP
 #
+$CMP Schottky_Single_100V_3A_ON-Semi_S310FA_SOD-123FA
+D Schottky Diode 100V 3A SOD-123FA
+F ${KIPRJMOD}\Kicad_Libraries_TEO\datasheets\diodes-rectifiers\Schottky_Single_100V_3A_ON-Semi_S310FA_SOD-123FA.PDF
+$ENDCMP
+#
 $CMP Schottky_Single_30V_40A_TO-263-2_MBRB4030T4G
 F ${KIPRJMOD}\Kicad_Library_TEO\datasheets\diodes-rectifiers\Schottky_Single_30V_40A_TO-263-2_MBRB4030T4G.pdf
 $ENDCMP
