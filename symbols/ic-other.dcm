@@ -5,7 +5,7 @@ F ${KIPRJMOD}\Kicad_Library_TEO\datasheets\ic-other\Level_Converter_1v65-5v5_Sin
 $ENDCMP
 #
 $CMP RDG_LED_Driver_2v7-5v5_36-channel_CC_lUMISSIL_IS32FL3237_eTQFP-48
-F ${KIPRJMOD}\Kicad_Library_TEO\datasheets\ic-other\
+F ${KIPRJMOD}\Kicad_Library_TEO\datasheets\ic-other\RDG_LED_Driver_2v7-5v5_36-channel_CC_lUMISSIL_IS32FL3237_eTQFP-48.pdf
 $ENDCMP
 #
 $CMP RTC_I2C_MicroCrystal_RV-3028-C7
