@@ -111,4 +111,9 @@ D 2off Keystone 54 clips spaced apart for protected 18650 cell
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\miscellaneous\Keystone 54 Battery Clip 16-19mm Single Side.pdf
 $ENDCMP
 #
+$CMP batteryholder_2898_keystone
+D 2032 Coin Cell SM Retainer
+F ${KIPRJMOD}\Kicad_Library_TEO\datasheets\miscellaneous\BatteryHolder_2898_Keystone.PDF
+$ENDCMP
+#
 #End Doc Library
