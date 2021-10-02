@@ -77,6 +77,11 @@ D PCB NFC Coil, 14.9mm x 17.6mm, 0.9uH Target
 K Self-contained, pads built-in
 $ENDCMP
 #
+$CMP Pogo_Pin_5mm_3.6mm_MillMax_0900-2-15-20-75-14-11-0
+D SMD Pogo Pin, 5mm extended, 3.6mm compressed, 0900-2-15-20-75-14-11-0, 2A
+F ${KIPRJMOD}\Kicad_Library_TEO\datasheets\miscellaneous\Pogo_Pin_5mm_3.6mm_MillMax.pdf
+$ENDCMP
+#
 $CMP TEMPLATE_miscellaneous
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\miscellaneous\
 $ENDCMP

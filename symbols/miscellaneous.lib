@@ -418,6 +418,28 @@ S -500 200 500 -200 0 1 0 f
 ENDDRAW
 ENDDEF
 #
+# Pogo_Pin_5mm_3.6mm_MillMax_0900-2-15-20-75-14-11-0
+#
+DEF Pogo_Pin_5mm_3.6mm_MillMax_0900-2-15-20-75-14-11-0 REF 0 50 Y Y 1 F N
+F0 "REF" 0 350 50 H V C CNN
+F1 "Pogo_Pin_5mm_3.6mm_MillMax_0900-2-15-20-75-14-11-0" 0 -350 50 H V C CNN
+F2 "" -45 -50 50 H I C CNN
+F3 "" -45 -50 50 H I C CNN
+F4 " " 0 0 50 H I C CNN "Description"
+F5 " MillMax" 0 0 50 H I C CNN "Manufacturer1"
+F6 "0900-2-15-20-75-14-11-0" 0 0 50 H I C CNN "MPN1"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor1"
+F8 "575-0900215207514110" 0 0 50 H I C CNN "SKU1"
+F9 "Farnell" 0 0 50 H I C CNN "Vendor2"
+F10 "2668368" 0 0 50 H I C CNN "SKU2"
+F11 " " 0 0 50 H I C CNN "FitPart"
+DRAW
+S -100 -150 100 -300 0 1 0 N
+S -50 0 50 -150 0 1 0 N
+X ~ 1 0 100 100 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # TEMPLATE_miscellaneous
 #
 DEF TEMPLATE_miscellaneous REF 0 50 Y Y 1 F N
